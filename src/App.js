@@ -1,29 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
-import Test from './Test';
-import { Link } from "react-router-dom";
+import Test from './Components/Test';
+import { BrowserRouter, Route, Routes, } from 'react-router-dom';
+import Relativity from './Pages/relativity';
+import SolidState from './Pages/SolidState';
+
 function App() {
+  
+  
   return (
+    <BrowserRouter>
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <p style={{color:"white"}}>Where is this?</p>
       </header>
+    
+      
       <div class="content">
-      <Test title="Stuff in the body of app." />
-      <Test title="second component" />
-      <Test title="Third Component" />
-      <Test title="fourth component" />
-      <Test title="Fifth component" />
-      <Test title="Sixth component" />
-      <Test title="Seventh Component" />
-      <Test title="Eigth component" />
-      <Test title="Ninth component" />
-      <Test title="Tenth component" />
+      <Test title="General Relativity" path="/relativity" />
+      <Test title="Solid State Phyics" path="/SolidState"/>
+      <Test title="Digital Electronics" path="/relativity"/>
       </div>
-      <footer className="App-footer">
-        <p>Put some footer links here</p>
-      </footer>
     </div>
+      
+      
+      <Routes>
+        <Route path="/relativity" component={Relativity}/>
+        <Route path="/SolidState" component={SolidState}/>
+      </Routes>
+   </BrowserRouter> 
   );
 }
 

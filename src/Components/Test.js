@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, } from 'react-router-dom';
 
 
 class Test extends React.Component {
@@ -7,7 +8,7 @@ class Test extends React.Component {
         return (
             <div class="component">
                 <p>{this.props.title}</p>
-                <a href="../public/Info.html">Link to component {this.props.title}</a>
+                <Link to={this.props.path}>{this.props.title}}</Link>
             </div>
         );
     }
