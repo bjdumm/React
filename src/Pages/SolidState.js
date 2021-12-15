@@ -1,12 +1,13 @@
 import React from 'react';
 
-function SolidState(props) {
-    return (
-        <div>
-            <p>Help me.</p>
-        </div>
-    );
+class SolidState extends React.Component {
+    render() {
+        return (
+            <div>
+                <h1 style={{color:"green"}}>Hlep.</h1>
+            </div>
+        );
+    }
 }
-
 
 export default SolidState;

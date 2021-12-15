@@ -1,5 +1,13 @@
-p {
-    background-color: blue;
-    color:darkslategrey;
+h4 {
+    background-color: rgba(0,0,0,0.5);
+    color:blue;
+    margin-top:0;
     font-size: 18px;
+}
+
+img {
+    height:100px;
+    width: 100px;
+    margin:auto;
+    display:block;
 }

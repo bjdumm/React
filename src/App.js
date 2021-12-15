@@ -1,14 +1,13 @@
 import './App.css';
 import Test from './Components/Test';
-import { BrowserRouter, Route, Routes, } from 'react-router-dom';
-import Relativity from './Pages/relativity';
-import SolidState from './Pages/SolidState';
+
+import grImg from './Assets/PageLinks/gr.jpeg';
 
 function App() {
   
   
   return (
-    <BrowserRouter>
+    
     <div className="App">
       <header className="App-header">
         <p style={{color:"white"}}>Where is this?</p>
@@ -16,18 +15,21 @@ function App() {
     
       
       <div class="content">
-      <Test title="General Relativity" path="/relativity" />
-      <Test title="Solid State Phyics" path="/SolidState"/>
-      <Test title="Digital Electronics" path="/relativity"/>
+      <Test title="General Relativity" im={grImg} path="/relativity" />
+      <Test title="Solid State Physics" im="" path="/SolidState"/>
+      <Test title="Eletrical Engineering" im="" path="/EE"/>
+      <Test title="Mechanical Engineering" im="" path="/ME"/>
+      <Test title="Classical Physics" im="" path="/classical"/>
+      <Test title="Electromagnetism" im="" path="/EM"/>
+      <Test title="Quantum Mechanics" im="" path="/QMech"/>
+      <Test title="Computer Electronics" im="" path="/CompElec"/>
+      <Test title="Computer Graphics" im="" path="/CompGraph"/>
+      
       </div>
-    </div>
       
+    </div> 
       
-      <Routes>
-        <Route path="/relativity" component={Relativity}/>
-        <Route path="/SolidState" component={SolidState}/>
-      </Routes>
-   </BrowserRouter> 
+    
   );
 }
 
