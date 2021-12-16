@@ -5,7 +5,7 @@
 }
 
 .App-header {
-  min-height:100px;
+  
 }
 
 .main {
@@ -40,4 +40,9 @@ div.content {
   background-color: blueviolet;
   color:cornsilk;
   margin:10px;
+}
+
+p {
+  color:coral;
+  font-size:28px;
 }

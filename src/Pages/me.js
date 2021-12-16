@@ -6,7 +6,7 @@ import ee2 from '../Assets/Videos/ee2.png';
 //import ee3 from '../Assets/Videos/ee3.png';
 //import ee4 from '../Assets/Videos/ee4.png';
 
-class SolidState extends React.Component {
+class ME extends React.Component {
     render() {
         return (
             <body>
@@ -16,6 +16,8 @@ class SolidState extends React.Component {
                     <h2>YouTube</h2>
                     <div style={{display:"flex", justifyContent: "space-around"}}>
                         <TubeLink name="DSP" url="https://www.youtube.com/playlist?list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et" img={ee2}/>
+                        
+                        
                         <TubeLink name="Eugene" url="https://www.youtube.com/playlist?list=PLkyBCj4JhHt-4PnnwpbG-ZKV_EjX03DX8" img={ee1}/>
                     </div>
                     <hr></hr>
@@ -35,4 +37,4 @@ class SolidState extends React.Component {
     }
 }
 
-export default SolidState;
+export default ME;
