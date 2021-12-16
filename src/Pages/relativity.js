@@ -1,5 +1,5 @@
 import React from 'react';
-import './relativity.css';
+import '../CSS/relativity.css'
 import TubeLink from '../Components/TubeLink';
 import gr1 from '../Assets/Videos/gr1.png';
 import gr2 from '../Assets/Videos/gr2.png';
@@ -23,14 +23,16 @@ class Relativity extends React.Component {
                     <hr></hr>
                 </div>
                 <div>
-                    <h2>Site Links</h2>
+                    <h2>Sites & Books</h2>
+                    <div id="sites">
+                    <a href="http://www.soulphysics.org/2008/06/get-started-learning-general-relativity/">Soul Physics</a>
+                    </div>
+
+                    
                     <hr></hr>
                 </div>
 
-                <div>
-                    <h2>Books</h2>
-                    <hr></hr>
-                </div>
+                
                 
             </body>
         );
