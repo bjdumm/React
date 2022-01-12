@@ -11,3 +11,9 @@ img {
     margin:auto;
     display:block;
 }
+
+.component {
+    width: 200px;
+    height:200px;
+}
+

@@ -10,7 +10,7 @@ class EE extends React.Component {
     render() {
         return (
             <body>
-                <h1 style={{color:"green"}}>General Relativity</h1>
+                <h1 style={{color:"green"}}>Electrical Engineering</h1>
                 <hr></hr>
                 <div>
                     <h2>YouTube</h2>

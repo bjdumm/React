@@ -1,35 +1,63 @@
 import React from 'react';
 import '../CSS/relativity.css';
 import TubeLink from '../Components/TubeLink';
-import ee1 from '../Assets/Videos/ee1.png';
-import ee2 from '../Assets/Videos/ee2.png';
-//import ee3 from '../Assets/Videos/ee3.png';
-//import ee4 from '../Assets/Videos/ee4.png';
+import cp1 from '../Assets/Videos/cp1.png';
+import cp2 from '../Assets/Videos/cp2.png';
+
 
 class CompProg extends React.Component {
     render() {
         return (
             <body>
-                <h1 style={{color:"green"}}>General Relativity</h1>
+                <h1 style={{color:"green"}}>Computer Programming</h1>
                 <hr></hr>
                 <div>
-                    <h2>YouTube</h2>
+                    <h2>Tutorials</h2>
                     <div style={{display:"flex", justifyContent: "space-around"}}>
-                        <TubeLink name="DSP" url="https://www.youtube.com/playlist?list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et" img={ee2}/>
+                        
+                        <div>
+                        <h2>Language Tutorials</h2>
+                        <TubeLink name="C Made Simple" url="https://www.youtube.com/playlist?list=PLfqABt5AS4FmErobw8YyTwXDUE5nPH5lH" img={cp1}/>
+                        <TubeLink name="C Made Simple" url="https://www.youtube.com/playlist?list=PLfqABt5AS4FmErobw8YyTwXDUE5nPH5lH" img={cp1}/>
+                        </div>
+
+                        <div>
+                        <h2>Data Structures and Algorithms</h2>
+                        <TubeLink name="C Made Simple" url="https://www.youtube.com/playlist?list=PLfqABt5AS4FmErobw8YyTwXDUE5nPH5lH" img={cp1}/>
+                        <TubeLink name="C Made Simple" url="https://www.youtube.com/playlist?list=PLfqABt5AS4FmErobw8YyTwXDUE5nPH5lH" img={cp1}/>
+                        </div>
+
+                        <div>
+                        <h2>Networking</h2>
+                        <TubeLink name="C Made Simple" url="https://www.youtube.com/playlist?list=PLfqABt5AS4FmErobw8YyTwXDUE5nPH5lH" img={cp1}/>
+                        <TubeLink name="C Made Simple" url="https://www.youtube.com/playlist?list=PLfqABt5AS4FmErobw8YyTwXDUE5nPH5lH" img={cp1}/>
+                        </div>
+
+                        <div>
+                        <h2>Graphics</h2>
+                        <TubeLink name="C Made Simple" url="https://www.youtube.com/playlist?list=PLfqABt5AS4FmErobw8YyTwXDUE5nPH5lH" img={cp1}/>
+                        <TubeLink name="C Made Simple" url="https://www.youtube.com/playlist?list=PLfqABt5AS4FmErobw8YyTwXDUE5nPH5lH" img={cp1}/>
+                        </div>
                         
                         
-                        <TubeLink name="Eugene" url="https://www.youtube.com/playlist?list=PLkyBCj4JhHt-4PnnwpbG-ZKV_EjX03DX8" img={ee1}/>
                     </div>
-                    <hr></hr>
-                </div>
-                <div>
-                    <h2>Site Links</h2>
                     <hr></hr>
                 </div>
 
                 <div>
-                    <h2>Books</h2>
+                <h2>Language Tutorials</h2>
+                    <div style={{display:"flex",justifyContent:"space-around"}}>
+                        <TubeLink name="C Made Simple" url="https://www.youtube.com/playlist?list=PLfqABt5AS4FmErobw8YyTwXDUE5nPH5lH" img={cp1}/>
+                        <TubeLink name="C Made Simple" url="https://www.youtube.com/playlist?list=PLfqABt5AS4FmErobw8YyTwXDUE5nPH5lH" img={cp1}/>
+                    </div>
                     <hr></hr>
+                </div>
+
+                <div>
+                    <h2>Documentation</h2>
+                    <div style={{display:"flex",justifyContent:"space-around"}}>
+                    <TubeLink name="MDN Docs" url="https://developer.mozilla.org/en-US/docs/Web" img={cp2}/>    
+                    </div>
                 </div>
                 
             </body>

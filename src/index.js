@@ -10,7 +10,7 @@ import QMech from './Pages/qmech';
 import CompEng from './Pages/compeng';
 import CompProg from './Pages/compprog';
 import Math from './Pages/math';
-
+import Cosmology from './Pages/cosmology';
 import Classical from './Pages/classical';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
@@ -32,6 +32,7 @@ ReactDOM.render(
         <Route path="/Classical" element={<Classical />}/>
         <Route path="/CompProg" element={<CompProg />}/>
         <Route path="/Math" element={<Math />}/>
+        <Route path="/Cosmology" element={<Cosmology />}/>
         
       </Routes>
    </Router>

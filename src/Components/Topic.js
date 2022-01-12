@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../Test.css';
+import '../CSS/Topic.css';
 
-class Test extends React.Component {
+class Topic extends React.Component {
     
     render() {
         return (
@@ -16,4 +16,4 @@ class Test extends React.Component {
     }
 }
 
-export default Test;
+export default Topic;

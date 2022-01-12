@@ -1,5 +1,5 @@
 import './App.css';
-import Test from './Components/Test';
+import Topic from './Components/Topic';
 
 import grImg from './Assets/PageLinks/gr.jpeg';
 
@@ -16,15 +16,16 @@ function App() {
     
       
       <div class="content">
-      <Test title="General Relativity" im={grImg} path="/relativity" />
-      <Test title="Solid State Physics" im={grImg} path="/SolidState"/>
-      <Test title="Eletrical Engineering" im="" path="/EE"/>
-      <Test title="Mechanical Engineering" im="" path="/ME"/>
-      <Test title="Classical Physics" im="" path="/classical"/>
-      <Test title="Math" im="" path="/math"/>
-      <Test title="Quantum Mechanics" im="" path="/QMech"/>
-      <Test title="Computer Engineering" im="" path="/CompEng"/>
-      <Test title="Computer Programming" im="" path="/CompProg"/>
+      <Topic title="General Relativity" im={grImg} path="/relativity" />
+      <Topic title="Cosmology" im={grImg} path="/cosmology" />
+      <Topic title="Solid State Physics" im={grImg} path="/SolidState"/>
+      <Topic title="Eletrical Engineering" im="" path="/EE"/>
+      <Topic title="Mechanical Engineering" im="" path="/ME"/>
+      <Topic title="Classical Physics" im="" path="/classical"/>
+      <Topic title="Math" im="" path="/math"/>
+      <Topic title="Quantum Mechanics" im="" path="/QMech"/>
+      <Topic title="Computer Engineering" im="" path="/CompEng"/>
+      <Topic title="Computer Programming" im="" path="/CompProg"/>
       
       </div>
       
